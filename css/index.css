@@ -306,19 +306,3 @@ footer {
   height: auto;
   border-radius: 10px;
 }
-.home .login {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-}
-.home .login .btn {
-  align-self: center;
-  background-color: #F1F1F1;
-  color: white;
-  font-size: 2rem;
-  padding: 2% 2%;
-  text-align: center;
-  width: 25%;
-  border-radius: 4px;
-  padding: 2%;
-}

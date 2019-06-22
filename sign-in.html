@@ -35,18 +35,16 @@
        <img class="header-img" src="./img/main-header.png" alt="">
 
       <h2>Sign Into your Account</h2>
-      <div class="login">
-        <form action="#">
-          <label for="uname"><strong>Username</strong></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
-          <label for="pw"><strong>Password</strong></label>
-          <input type="text" placeholder="Enter Password" name="pw" required>
+      <form action="/action_page.php">
+        <label for="uname">Username</label>
+          <input type="text" id="fname" name="uname" placeholder="Enter Username">
 
-          <button class="btn" type="submit">Sign In</button>
-         
-        </form>
-      </div>
-    
+        <label for="pw">Password</label>
+          <input type="text" id="pw" name="pw" placeholder="Enter Password">
+        
+        <input type="submit" value="Submit">
+
+</form>
 
     </header>
 

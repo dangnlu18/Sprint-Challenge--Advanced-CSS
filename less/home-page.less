@@ -90,9 +90,7 @@
         .btn-mixin(@btn-bg-color, 1.5rem);
 
         &:hover{
-          background-color: white;
-          color: @btn-bg-color;
-          cursor: pointer;
+          .hover();
         }
         @media @phone{
           padding: 6%;
@@ -117,16 +115,6 @@
         height: auto;
         border-radius: 10px;
       }
-    }
-  }
-  .login{
-    .flexrow();
-    justify-content: space-between;
-
-    .btn{
-      align-self: center;
-      .btn-mixin(@sea-shell, 2rem);
-      padding: 2%;
     }
   }
 }// home
