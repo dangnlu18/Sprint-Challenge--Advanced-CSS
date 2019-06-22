@@ -1,6 +1,7 @@
 // Home Content
 
 .home {
+  margin-top: 101.6px;
   
   .header-img{
     border-radius: 5px;
@@ -91,6 +92,7 @@
         &:hover{
           background-color: white;
           color: @btn-bg-color;
+          cursor: pointer;
         }
         @media @phone{
           padding: 6%;
@@ -115,6 +117,16 @@
         height: auto;
         border-radius: 10px;
       }
+    }
+  }
+  .login{
+    .flexrow();
+    justify-content: space-between;
+
+    .btn{
+      align-self: center;
+      .btn-mixin(@sea-shell, 2rem);
+      padding: 2%;
     }
   }
 }// home

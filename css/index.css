@@ -163,6 +163,8 @@ p {
 .outer-wrapper {
   width: 100%;
   background-color: #F6F6F6;
+  position: fixed;
+  top: 0;
 }
 .navwrapper {
   display: flex;
@@ -194,6 +196,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 101.6px;
 }
 .home .header-img {
   border-radius: 5px;
@@ -276,6 +281,7 @@ footer {
 .home .walk .walk-text .btn:hover {
   background-color: white;
   color: #22283A;
+  cursor: pointer;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
@@ -299,4 +305,20 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.home .login {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.home .login .btn {
+  align-self: center;
+  background-color: #F1F1F1;
+  color: white;
+  font-size: 2rem;
+  padding: 2% 2%;
+  text-align: center;
+  width: 25%;
+  border-radius: 4px;
+  padding: 2%;
 }
