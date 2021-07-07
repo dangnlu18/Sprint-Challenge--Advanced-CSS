@@ -1,1 +1,31 @@
 // Mixins Here
+
+.btn-mixin(@background, @font-size){
+	background-color: @background;
+	color: white;
+	text-align: center;
+	font-size: @font-size;
+	padding: 2% 2%;
+	text-align: center;
+	width: 25%;
+	border-radius: 4px;
+}
+
+.flexcol(){
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.flexrow(){
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.hover(){
+	background-color: white;
+	color: @btn-bg-color;
+	cursor: pointer;
+}
+
